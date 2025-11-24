@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Calisaya - Senior Full Stack Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'media',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#0f172a',
+                        accent: '#3b82f6',
+                        dark: '#020617',
+                        card: '#1e293b',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+
+            body {
+                background: white !important;
+                color: black !important;
+                -webkit-print-color-adjust: exact;
+            }
+
+            .card {
+                border: 1px solid #ddd;
+                background: none !important;
+                box-shadow: none !important;
+                break-inside: avoid;
+            }
+
+            .text-accent {
+                color: #000 !important;
+            }
+
+            .bg-clip-text {
+                -webkit-text-fill-color: black !important;
+            }
+
+            a {
+                text-decoration: none !important;
+                color: black !important;
+            }
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .glass {
+                background: rgba(30, 41, 59, 0.7);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-900 dark:bg-dark dark:text-slate-100 transition-colors duration-300">
+
+    <!-- Language Switch & Print -->
+    <div class="fixed top-6 right-6 flex gap-3 z-50 no-print">
+        <a href="CV_Daniel_Calisaya.html"
+            class="px-4 py-2 rounded-full bg-white/90 dark:bg-slate-800/90 shadow-lg backdrop-blur-sm border border-slate-200 dark:border-slate-700 hover:scale-105 transition-transform font-medium text-sm flex items-center gap-2">
+            🇪🇸 Español
+        </a>
+        <button onclick="window.print()"
+            class="px-4 py-2 rounded-full bg-slate-900 dark:bg-white text-white dark:text-slate-900 shadow-lg hover:scale-105 transition-transform font-medium text-sm flex items-center gap-2">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z">
+                </path>
+            </svg>
+            PDF
+        </button>
+    </div>
+
+    <main class="max-w-4xl mx-auto p-6 md:p-12">
+
+        <!-- Header -->
+        <header class="mb-12 text-center md:text-left">
+            <h1
+                class="font-display text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-slate-900 to-slate-600 dark:from-white dark:to-slate-400 bg-clip-text text-transparent tracking-tight">
+                Daniel Calisaya
+            </h1>
+            <h2 class="text-xl md:text-2xl text-accent font-medium mb-6">
+                Senior Full Stack Engineer: Hybrid Infrastructure & Generative AI
+            </h2>
+            <div
+                class="flex flex-wrap gap-4 justify-center md:justify-start text-sm text-slate-600 dark:text-slate-400 font-medium">
+                <a href="mailto:daniel@livedeveloper.com"
+                    class="hover:text-accent transition-colors flex items-center gap-1">
+                    ✉️ daniel@livedeveloper.com
+                </a>
+                <span class="hidden md:inline">•</span>
+                <a href="https://github.com/dcalisaya"
+                    class="hover:text-accent transition-colors flex items-center gap-1">
+                    GitHub
+                </a>
+                <span class="hidden md:inline">•</span>
+                <a href="https://ec.linkedin.com/in/dcalisaya"
+                    class="hover:text-accent transition-colors flex items-center gap-1">
+                    LinkedIn
+                </a>
+                <span class="hidden md:inline">•</span>
+                <span>📍 Quito, Ecuador</span>
+            </div>
+        </header>
+
+        <!-- Summary -->
+        <section class="mb-12">
+            <div class="glass p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+                <p class="text-lg leading-relaxed text-slate-700 dark:text-slate-300">
+                    Senior Full Stack Engineer and AI Specialist with over 9 years of experience leading the convergence
+                    of software development, high-performance infrastructure, and digital creativity. <strong
+                        class="text-slate-900 dark:text-white">"Continuous Learner"</strong> by definition: my journey
+                    from Social Communications to AI Engineering demonstrates a proven ability to master and adapt to
+                    emerging technologies. Expert in <strong class="text-slate-900 dark:text-white">Generative
+                        AI</strong> workflows (ComfyUI, Python) and hardware optimization (CUDA/RTX).
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Grid -->
+        <section class="mb-12">
+            <h3 class="font-display text-sm font-bold uppercase tracking-widest text-slate-500 mb-6">Tech Stack</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- AI -->
+                <div
+                    class="p-5 rounded-xl bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 shadow-sm hover:border-accent/50 transition-colors">
+                    <h4 class="font-bold text-lg mb-3 flex items-center gap-2">
+                        <span class="text-accent">🤖</span> AI & Generative Tech
+                    </h4>
+                    <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-300">
+                        <li><strong class="text-slate-900 dark:text-white">Python</strong> (Core), Scripting</li>
+                        <li>ComfyUI, Stable Diffusion, CV Models</li>
+                        <li><strong class="text-slate-900 dark:text-white">Prompt Engineering</strong> (Complex English
+                            Prompts)</li>
+                        <li>CUDA, RTX 5070 Ti Optimization</li>
+                    </ul>
+                </div>
+
+                <!-- Web -->
+                <div
+                    class="p-5 rounded-xl bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 shadow-sm hover:border-accent/50 transition-colors">
+                    <h4 class="font-bold text-lg mb-3 flex items-center gap-2">
+                        <span class="text-accent">⚡</span> Modern Web
+                    </h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span
+                            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-700 text-xs font-medium">Next.js</span>
+                        <span
+                            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-700 text-xs font-medium">Laravel</span>
+                        <span
+                            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-700 text-xs font-medium">TypeScript</span>
+                        <span class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-700 text-xs font-medium">PHP</span>
+                        <span
+                            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-700 text-xs font-medium">Vite</span>
+                        <span
+                            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-700 text-xs font-medium">MySQL</span>
+                    </div>
+                </div>
+
+                <!-- DevOps -->
+                <div
+                    class="p-5 rounded-xl bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 shadow-sm hover:border-accent/50 transition-colors">
+                    <h4 class="font-bold text-lg mb-3 flex items-center gap-2">
+                        <span class="text-accent">🚀</span> DevOps & Infra
+                    </h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span
+                            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-700 text-xs font-medium">Proxmox</span>
+                        <span
+                            class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-700 text-xs font-medium">Docker</span>
+                        <span class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-700 text-xs font-medium">Linux
+                            Admin</span>
+                        <span class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-700 text-xs font-medium">Git</span>
+                        <span class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-700 text-xs font-medium">NAS</span>
+                    </div>
+                </div>
+
+                <!-- Multimedia -->
+                <div
+                    class="p-5 rounded-xl bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 shadow-sm hover:border-accent/50 transition-colors">
+                    <h4 class="font-bold text-lg mb-3 flex items-center gap-2">
+                        <span class="text-accent">🎨</span> Multimedia
+                    </h4>
+                    <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-300">
+                        <li>Adobe After Effects (Advanced)</li>
+                        <li>Final Cut Pro, Video Editing</li>
+                        <li>Sound Design, Adobe Audition</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="mb-12">
+            <h3 class="font-display text-sm font-bold uppercase tracking-widest text-slate-500 mb-8">Professional
+                Experience</h3>
+
+            <div class="relative border-l-2 border-slate-200 dark:border-slate-800 ml-3 space-y-12">
+
+                <!-- Live Developer -->
+                <div class="relative pl-8">
+                    <div
+                        class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-accent border-4 border-white dark:border-dark">
+                    </div>
+                    <div class="flex flex-col sm:flex-row sm:items-baseline justify-between mb-2">
+                        <h4 class="text-xl font-bold text-slate-900 dark:text-white">Live Developer</h4>
+                        <span class="text-sm font-mono text-slate-500">2015 - Present</span>
+                    </div>
+                    <div class="text-accent font-medium mb-4">Senior Full Stack Engineer & AI Lead</div>
+
+                    <div class="space-y-4 text-slate-600 dark:text-slate-300">
+                        <div class="bg-slate-50 dark:bg-slate-800/30 p-4 rounded-lg">
+                            <strong class="block text-slate-900 dark:text-white mb-1">Generative AI Leadership
+                                (2023-Present)</strong>
+                            <p class="text-sm">Designed <strong>ComfyUI</strong> pipelines reducing production times by
+                                <strong class="text-green-500">60%</strong>. Optimized local inference on <strong>RTX
+                                    5070 Ti</strong>.</p>
+                        </div>
+                        <div class="bg-slate-50 dark:bg-slate-800/30 p-4 rounded-lg">
+                            <strong class="block text-slate-900 dark:text-white mb-1">Full Stack Architecture
+                                (2018-2023)</strong>
+                            <p class="text-sm">Migrated to <strong>Next.js</strong> and <strong>Laravel</strong>,
+                                achieving a <strong class="text-green-500">40%</strong> performance improvement.</p>
+                        </div>
+                        <div class="bg-slate-50 dark:bg-slate-800/30 p-4 rounded-lg">
+                            <strong class="block text-slate-900 dark:text-white mb-1">Mobile Development & Multimedia
+                                (2016-2017)</strong>
+                            <p class="text-sm"><strong>Laboratorios Life:</strong> iOS/Android Loyalty App with catalog
+                                and points system. Directed post-production in After Effects.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Previous Roles -->
+                <div class="relative pl-8">
+                    <div
+                        class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700 border-4 border-white dark:border-dark">
+                    </div>
+                    <h4 class="text-lg font-bold text-slate-900 dark:text-white mb-4">Previous Roles</h4>
+                    <ul class="space-y-3 text-sm text-slate-600 dark:text-slate-400">
+                        <li class="flex gap-2">
+                            <span class="font-mono text-xs opacity-70 w-12 pt-1">2013</span>
+                            <div><strong>Platform Consultant</strong> @ OLADE</div>
+                        </li>
+                        <li class="flex gap-2">
+                            <span class="font-mono text-xs opacity-70 w-12 pt-1">09-11</span>
+                            <div><strong>Multimedia Director</strong> @ Agencia ANDES</div>
+                        </li>
+                        <li class="flex gap-2">
+                            <span class="font-mono text-xs opacity-70 w-12 pt-1">2009</span>
+                            <div><strong>Webmaster</strong> @ Presidency of the Republic</div>
+                        </li>
+                        <li class="flex gap-2">
+                            <span class="font-mono text-xs opacity-70 w-12 pt-1">02-07</span>
+                            <div><strong>Web Developer</strong> @ Alegoría Media Inc. USA <br><span
+                                    class="text-xs opacity-75">Managed catalog of >5,000 products.</span></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Languages -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <section>
+                <h3 class="font-display text-sm font-bold uppercase tracking-widest text-slate-500 mb-6">Education</h3>
+                <div class="space-y-4">
+                    <div class="border-l-2 border-slate-200 dark:border-slate-800 pl-4">
+                        <div class="font-bold text-slate-900 dark:text-white">Android Developer Nanodegree</div>
+                        <div class="text-sm text-slate-500">Udacity, 2019</div>
+                    </div>
+                    <div class="border-l-2 border-slate-200 dark:border-slate-800 pl-4">
+                        <div class="font-bold text-slate-900 dark:text-white">Internet Oriented Programming</div>
+                        <div class="text-sm text-slate-500">EPN, 2005</div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3 class="font-display text-sm font-bold uppercase tracking-widest text-slate-500 mb-6">Languages</h3>
+                <div class="space-y-4">
+                    <div class="flex justify-between items-center p-3 bg-slate-50 dark:bg-slate-800/50 rounded-lg">
+                        <span class="font-medium">Spanish</span>
+                        <span class="text-xs font-bold px-2 py-1 bg-slate-200 dark:bg-slate-700 rounded">Native</span>
+                    </div>
+                    <div class="flex justify-between items-center p-3 bg-slate-50 dark:bg-slate-800/50 rounded-lg">
+                        <span class="font-medium">English</span>
+                        <div class="text-right">
+                            <span class="text-xs font-bold px-2 py-1 bg-accent text-white rounded">Professional</span>
+                            <div class="text-[10px] text-slate-500 mt-1">Complex Prompting</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Remote Infra -->
+        <section class="mt-16 pt-8 border-t border-slate-200 dark:border-slate-800">
+            <h3
+                class="font-display text-sm font-bold uppercase tracking-widest text-slate-500 mb-6 flex items-center gap-2">
+                <span class="text-accent">⚡</span> Remote Work Infrastructure (Home Lab)
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="p-4 bg-slate-900 text-slate-300 rounded-xl text-sm">
+                    <strong class="block text-white mb-1">Mac Studio M4 Max</strong>
+                    Dev & Creative Workstation
+                </div>
+                <div class="p-4 bg-slate-900 text-slate-300 rounded-xl text-sm">
+                    <strong class="block text-white mb-1">RTX 5070 Ti Node</strong>
+                    Local AI Inference & CUDA
+                </div>
+                <div class="p-4 bg-slate-900 text-slate-300 rounded-xl text-sm">
+                    <strong class="block text-white mb-1">Proxmox Cluster</strong>
+                    Intel Xeon Server + NAS
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
