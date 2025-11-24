@@ -5,8 +5,8 @@
 I'm a **Hybrid Technologist** based in Quito, Ecuador, with over 9 years of experience fusing **Software Architecture**, **High-Performance Infrastructure**, and **Creative Multimedia**. I specialize in building end-to-end digital products, from the bare-metal server to the pixel-perfect frontend, now powered by **Generative AI**.
 
 <div align="center">
-  <a href="CV_Daniel_Calisaya.html"><strong>📄 Ver CV (Español)</strong></a> | 
-  <a href="CV_Daniel_Calisaya_EN.html"><strong>📄 View CV (English)</strong></a>
+  <a href="https://dcalisaya.github.io/DanielCalisaya/CV_Daniel_Calisaya.html"><strong>📄 Ver CV (Español)</strong></a> | 
+  <a href="https://dcalisaya.github.io/DanielCalisaya/CV_Daniel_Calisaya_EN.html"><strong>📄 View CV (English)</strong></a>
 </div>
 
 ---
