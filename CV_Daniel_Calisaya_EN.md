@@ -25,7 +25,8 @@ Senior Full Stack Developer and AI Specialist with over 9 years of experience le
 
 ### Modern Web & Backend
 *   **Frameworks**: Next.js, Vite, Laravel, Blazor, ASP.NET Core.
-*   **CMS**: WordPress (Advanced Development), Drupal, Joomla.
+*   **CMS**: WordPress (Advanced Theme/Plugin Development), Drupal, Joomla.
+*   **Frontend & Design**: **CSS3**, **UI/UX Design** (Figma/Adobe), Responsive Web Design.
 *   **Languages**: PHP, JavaScript/TypeScript, C#, Java, Kotlin.
 *   **Databases**: MySQL, SQL Server, PostgreSQL.
 
@@ -62,6 +63,15 @@ Senior Full Stack Developer and AI Specialist with over 9 years of experience le
 *   **Mobile Development & Multimedia (2015-2018)**:
     *   **Laboratorios Life (2017)**: Developed a native Mobile App (iOS/Android) for customer loyalty, featuring a product catalog, push notifications, and a points redemption system.
     *   Directed post-production and digital animation in **After Effects**, fusing creativity with technology.
+
+**Consultancy & Freelance**
+*   **Wildlife Conservation Society** | *2021 - 2025*
+    *   Comprehensive website and landing page maintenance.
+    *   NAS infrastructure management and support.
+
+*   **World Vision Ecuador** | *2014 - 2015 / 2020 - 2024*
+    *   **2020-2024**: Digital animation services and massive data storage backup.
+    *   **2014-2015**: Development of the Annual Operational Planning (POA) System and implementation of Baseline Survey Systems.
 
 **Web Department Director / Communications Axis** | *2003 - 2015*
 *   Management and development of corporate web applications.

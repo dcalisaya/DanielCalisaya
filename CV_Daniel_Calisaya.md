@@ -25,7 +25,8 @@ Especialista Full Stack y Experto en IA con más de 9 años de experiencia lider
 
 ### Modern Web & Backend
 *   **Frameworks**: Next.js, Vite, Laravel, Blazor, ASP.NET Core.
-*   **CMS**: WordPress (Desarrollo avanzado), Drupal, Joomla.
+*   **CMS**: WordPress (Desarrollo avanzado de Themes/Plugins), Drupal, Joomla.
+*   **Frontend & Design**: **CSS3**, **UI/UX Design** (Figma/Adobe), Responsive Web Design.
 *   **Lenguajes**: PHP, JavaScript/TypeScript, C#, Java, Kotlin.
 *   **Bases de Datos**: MySQL, SQL Server, PostgreSQL.
 
@@ -63,6 +64,15 @@ Trayectoria de 9 años evolucionando desde el desarrollo web hasta el liderazgo 
     *   **Laboratorios Life (2017)**: Desarrollo de App Móvil (iOS/Android) para fidelización de clientes, integrando catálogo de productos, notificaciones push y sistema de control de puntos.
     *   Dirección de post-producción y animación digital en **After Effects**, fusionando creatividad con tecnología.
 
+**Consultoría & Freelance**
+*   **Wildlife Conservation Society** | *2021 - 2025*
+    *   Mantenimiento integral de sitios web y landing pages.
+    *   Gestión y soporte de infraestructura NAS.
+
+*   **World Vision Ecuador** | *2014 - 2015 / 2020 - 2024*
+    *   **2020-2024**: Servicios de animación digital y respaldo de almacenamiento masivo de información.
+    *   **2014-2015**: Desarrollo del Sistema POA (Planificación Operativa Anual) e implementación de Sistemas de Encuestas de líneas base.
+
 **Director del Departamento Web / Eje Comunicaciones** | *2003 - 2015*
 *   Gestión y desarrollo de aplicaciones web corporativas.
 *   Coordinación de equipos de trabajo para estrategias digitales.
@@ -79,7 +89,6 @@ Trayectoria de 9 años evolucionando desde el desarrollo web hasta el liderazgo 
 **Director del Departamento Web / Eje Comunicaciones** | *2006 - 2009*
 *   Webmaster principal y líder de desarrollo de aplicaciones.
 
-**Desarrollador Web** | *Alegoría Media Inc. USA* | *2002 - 2007*
 **Desarrollador Web** | *Alegoría Media Inc. USA* | *2002 - 2007*
 *   Webmaster y desarrollador para la tienda online de Mercado Cristiano, gestionando un catálogo de más de 5,000 productos con Yahoo Front Store.
 *   Mantenimiento y evolución del portal social `www.cristianos.com`.
